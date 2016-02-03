@@ -1,0 +1,28 @@
+{
+  "name": "mock-css-modules",
+  "version": "1.0.0",
+  "description": "Mock CSS Modules for testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bmatcuk/mock-css-modules"
+  },
+  "keywords": [
+    "webpack",
+    "css",
+    "modules",
+    "testing"
+  ],
+  "author": "Bob Matcuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmatcuk/mock-css-modules/issues"
+  },
+  "homepage": "https://github.com/bmatcuk/mock-css-modules#readme",
+  "dependencies": {
+    "harmony-reflect": "~1.4.2"
+  }
+}
