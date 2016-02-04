@@ -4,7 +4,7 @@
   "description": "Mock CSS Modules for testing.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --harmony-proxies index.spec.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,9 @@
   "homepage": "https://github.com/bmatcuk/mock-css-modules#readme",
   "dependencies": {
     "harmony-reflect": "~1.4.2"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~2.4.5"
   }
 }
