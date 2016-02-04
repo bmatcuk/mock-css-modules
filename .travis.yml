@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "stable"
+  - "4.1"
+install:
+  - npm install --dev
+script:
+  - node --harmony-proxies node_modules/.bin/istanbul -- cover node_modules/mocha/bin/_mocha index.spec.js && codecov
+
