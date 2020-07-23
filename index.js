@@ -1,5 +1,3 @@
-require('harmony-reflect');
-
 function handler(module, filename) {
   module.exports = new Proxy({}, {
     get: function(target, property, receiver) {

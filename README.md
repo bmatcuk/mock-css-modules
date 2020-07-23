@@ -68,18 +68,14 @@ assumptions about the names of the generated classes, these values are just as
 valid as the real ones so they shouldn't cause any issues.
 
 ## Installation
-This package makes use of the `--harmony-proxies` node option. I'm not sure in
-what version that was added, but you may need a newish version. Install with
-npm:
+Install with npm:
 
 ```bash
 npm install --save-dev mock-css-modules
 ```
 
 ## Usage
-As noted above, this package makes use of the `--harmony-proxies` option. This
-means that however you start node, you'll need to pass that option. Then,
-simply `require("mock-css-modules")` before any CSS files and you'll be rockin'.
+Simply `require("mock-css-modules")` before any CSS files and you'll be rockin'.
 By default, mock-css-modules will handle `require()`d .css files. If your
 project has some other extensions (such as .sass, .scss, etc), you'll need to
 register handlers for those, too:
@@ -99,7 +95,7 @@ If you are using mocha to run your tests, you can use mock-css-modules from the
 command line:
 
 ```bash
-mocha --require mock-css-modules --harmony-proxies ...
+mocha --require mock-css-modules ...
 ```
 
 If you need to handle additional extensions, copy the two lines above into a
@@ -107,6 +103,6 @@ file called `test-setup.js`, for example, and require the file instead of
 mock-css-modules directly:
 
 ```bash
-mocha --require test-setup.js --harmony-proxies ...
+mocha --require test-setup.js ...
 ```
 
