@@ -24,8 +24,8 @@
   "homepage": "https://github.com/bmatcuk/mock-css-modules#readme",
   "devDependencies": {
     "chai": "~4.2.0",
-    "codecov": "^3.7.2",
+    "codecov": "^3.8.0",
     "istanbul": "^0.4.2",
-    "mocha": "~8.0.1"
+    "mocha": "~8.1.3"
   }
 }
