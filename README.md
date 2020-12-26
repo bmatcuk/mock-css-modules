@@ -1,5 +1,5 @@
 ![Release](https://img.shields.io/npm/v/mock-css-modules.svg)
-[![Build Status](https://travis-ci.org/bmatcuk/mock-css-modules.svg?branch=master)](https://travis-ci.org/bmatcuk/mock-css-modules)
+[![Build Status](https://travis-ci.com/bmatcuk/mock-css-modules.svg?branch=master)](https://travis-ci.com/bmatcuk/mock-css-modules)
 [![codecov.io](https://img.shields.io/codecov/c/github/bmatcuk/mock-css-modules.svg?branch=master)](https://codecov.io/github/bmatcuk/mock-css-modules?branch=master)
 
 # mock-css-modules
